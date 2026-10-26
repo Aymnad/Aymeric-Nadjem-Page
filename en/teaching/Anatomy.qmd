@@ -1,0 +1,13 @@
+---
+title: "Anatomy course"
+description: "Interactive marimo notebook running in the browser (WebAssembly)."
+date: 2026-10-01
+categories: [anatomy]
+---
+
+Sample page.
+
+| Year | Course | Level |
+|------|--------|-------|
+| 2025–2026 | Introduction to computational neuroscience | MSc 1 |
+| 2024–2025 | Signal processing in Python | BSc 3 |

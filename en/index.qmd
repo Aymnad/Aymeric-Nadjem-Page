@@ -4,7 +4,7 @@ title: "First Last"
 subtitle: "Engineer, PhD in neuroscience"
 format:
   html:
-    css: ../style/styles-home.css
+    css: ../design/styles-home.css
 ---
 
 ::: {.home-hero}

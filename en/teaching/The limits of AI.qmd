@@ -1,0 +1,8 @@
+---
+title: "The limits of IA"
+description: "Interactive marimo notebook running in the browser (WebAssembly)."
+date: 2026-10-01
+categories: [AI]
+---
+
+this is a test

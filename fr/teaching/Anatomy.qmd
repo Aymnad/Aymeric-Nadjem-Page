@@ -1,0 +1,13 @@
+---
+title: "Cours d'anatomie"
+description: "Interactive marimo notebook running in the browser (WebAssembly)."
+date: 2026-10-01
+categories: [anatomie]
+---
+
+Page d'exemple.
+
+| Année | Cours | Niveau |
+|-------|-------|--------|
+| 2025–2026 | Introduction aux neurosciences computationnelles | Master 1 |
+| 2024–2025 | Traitement du signal en Python | Licence 3 |

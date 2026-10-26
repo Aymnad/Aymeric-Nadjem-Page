@@ -1,10 +1,10 @@
 ---
 title: "Enseignement"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [title, description, date, categories]
 ---
 
-Page d'exemple.
-
-| Année | Cours | Niveau |
-|-------|-------|--------|
-| 2025–2026 | Introduction aux neurosciences computationnelles | Master 1 |
-| 2024–2025 | Traitement du signal en Python | Licence 3 |
