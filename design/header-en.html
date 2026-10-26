@@ -1,0 +1,24 @@
+<header class="site-header">
+  <a class="site-title" href="/en/index.html">First Last</a>
+  <nav aria-label="Main navigation">
+    <a href="/en/index.html" data-path="/en/">Home</a>
+    <a href="/en/projects/index.html" data-path="/en/projects/">Projects</a>
+    <a href="/en/teaching/index.html" data-path="/en/teaching/">Teaching</a>
+    <a class="lang-switch" id="lang-switch" lang="fr" href="/fr/index.html">FR</a>
+  </nav>
+</header>
+<script>
+/* Lien actif + bouton de langue vers la même page dans l'autre langue
+   (suppose des chemins identiques sous /fr/ et /en/). */
+(function () {
+  var hd = document.querySelector(".site-header");
+  if (hd && hd.parentNode !== document.body) document.body.insertBefore(hd, document.body.firstChild);
+  var p = location.pathname.replace(/index\.html$/, "");
+  document.querySelectorAll(".site-header nav a[data-path]").forEach(function (a) {
+    var d = a.getAttribute("data-path");
+    if (d === "/en/" ? p === d : p.indexOf(d) === 0) a.setAttribute("aria-current", "page");
+  });
+  var s = document.getElementById("lang-switch");
+  if (s) s.href = location.pathname.replace("/en/", "/fr/") + location.hash;
+})();
+</script>

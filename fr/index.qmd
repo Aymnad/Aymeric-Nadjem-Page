@@ -1,0 +1,22 @@
+---
+title: "Prénom Nom"
+subtitle: "Ingénieur, docteur en neurosciences"
+---
+
+Texte d'exemple : je conçois des outils d'analyse et de modélisation pour
+l'étude du cerveau. Ce site rassemble mes [projets](projects/index.qmd), mes
+activités d'[enseignement](teaching/index.qmd) et des démonstrations
+interactives.
+
+## Pour vérifier que tout fonctionne
+
+- La police du texte est **Literata**, le code est en `JetBrains Mono`.
+- Le bouton **EN** de la barre de navigation ouvre la même page en anglais.
+- La page [Oscillation amortie](projects/demo-marimo.qmd) intègre un
+  notebook marimo (WebAssembly) avec la même identité visuelle.
+
+```python
+# Un bloc de code, pour voir la police monospace
+def moyenne(xs):
+    return sum(xs) / len(xs)
+```

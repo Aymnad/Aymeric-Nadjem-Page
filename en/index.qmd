@@ -1,0 +1,38 @@
+
+---
+title: "First Last"
+subtitle: "Engineer, PhD in neuroscience"
+format:
+  html:
+    css: ../style/styles-home.css
+---
+
+::: {.home-hero}
+
+::: {.home-card}
+
+this is a text
+
+
+
+# First Last
+
+**Engineer, PhD in neuroscience**
+
+I build analysis and modelling tools for brain research. This site gathers my [projects](projects/index.qmd), my [teaching](teaching/index.qmd) and a few interactive demos.
+
+## Checking that everything works
+
+- Body text uses **Arial**; code uses `JetBrains Mono`.
+- The **FR** button in the navigation bar opens the same page in French.
+- The [Damped oscillation](projects/demo-marimo.qmd) page embeds a marimo (WebAssembly) notebook with the same visual identity.
+
+```python
+def mean(xs):
+    return sum(xs) / len(xs)
+```
+
+
+:::
+
+:::

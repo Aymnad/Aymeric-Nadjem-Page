@@ -1,0 +1,52 @@
+---
+title: "The neuron: seeing to understand"
+subtitle: "An illustrated concept, from historical drawing to modern diagram"
+description: "Example concept page with background images, captioned figure and credits."
+date: 2026-10-20
+categories: [neuroscience, illustration]
+image: ../../design/img/cajal-purkinje-1899.webp
+---
+
+A neuron receives signals through its dendrites, integrates them in its cell
+body, then passes the result along its axon. Simple to state, this idea took
+decades to establish.
+
+::: {.illustration .illustration--droite .column-screen style="--img: url('/design/img/cajal-purkinje-1899.webp')"}
+::: {.illustration-texte}
+## Drawing to discover
+
+In the late 19^th^ century, Santiago Ramón y Cajal examined nervous tissue
+stained with Golgi's method and drew it by hand. His drawings showed that the
+brain is made of distinct cells, neurons, that communicate by contact rather
+than continuity: the origin of the neuron doctrine. He shared the 1906 Nobel
+Prize in Physiology or Medicine with Camillo Golgi.
+
+*Background image: Purkinje cells, drawing by Cajal (1899), public domain
+(see the credits at the bottom of the page).*
+:::
+:::
+
+## Anatomy of a multipolar neuron
+
+Most neurons in the central nervous system are multipolar: a single axon, and
+many dendrites that allow the cell to integrate a lot of information coming
+from other neurons.
+
+![Diagram of a multipolar neuron. *Image: Bruce Blaus / Blausen.com, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons.*](../../design/img/blausen-multipolar-neuron.webp){fig-alt="Annotated diagram of a multipolar neuron: cell body with nucleus, branching dendrites, a long myelinated axon and axon terminals."}
+
+## Image credits {.unnumbered}
+
+::: {.credits}
+- **Purkinje cells (A) and granule cells (B) from pigeon cerebellum**, drawing
+  by Santiago Ramón y Cajal, 1899 (Instituto Cajal, Madrid). Public domain.
+  Source:
+  [Wikimedia Commons, "PurkinjeCell.jpg"](https://commons.wikimedia.org/wiki/File:PurkinjeCell.jpg).
+  Image resized.
+- **Multipolar neuron (Blausen 0657)**, Bruce Blaus / Blausen.com staff,
+  licence [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications).
+  Image resized.
+:::
+
+<!-- Before publishing: check on each Commons file page the exact file name,
+     the licence (CC version) and attribution requirements, then adjust above. -->

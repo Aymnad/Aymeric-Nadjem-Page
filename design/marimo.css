@@ -1,0 +1,14 @@
+/* Surcharges appliquées aux notebooks marimo exportés (injectées par
+   tools/postprocess.py). Seules les 3 variables de police sont une API
+   publique de marimo ; les autres (--background, --primary…) peuvent
+   changer d'une version à l'autre : à re-vérifier lors d'une mise à jour. */
+html:root {
+  --marimo-text-font: var(--font-text);
+  --marimo-heading-font: var(--font-text);
+  --marimo-monospace-font: var(--font-mono);
+
+  --background: var(--papier);
+  --foreground: var(--encre);
+  --primary: var(--bleu);
+}
+html, body { background: var(--papier); color: var(--encre); }

@@ -16,3 +16,42 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# From ChatGPT
+
+# Quarto : site HTML généré
+_site/
+
+# Fichiers temporaires Quarto
+.quarto/
+*_cache/
+*_freeze/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Environnements Python (si utilisés plus tard)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environnements RStudio (si utilisés plus tard)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Secrets et variables d'environnement
+.env
+.env.*
+!.env.example
+
+/.quarto/
+**/*.quarto_ipynb
