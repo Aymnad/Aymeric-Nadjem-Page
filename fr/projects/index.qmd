@@ -1,7 +1,9 @@
 ---
 title: "Projets"
 listing:
-  contents: "*.qmd"
+  contents:
+    - "*.qmd"
+    - "*/index.qmd"
   sort: "date desc"
   type: default
   categories: true

@@ -1,0 +1,10 @@
+---
+title: "Bulk analysis"
+description: "Interactive marimo notebook running in the browser (WebAssembly)."
+date: 2026-10-01
+categories: [marimo, Python]
+---
+
+This page contains an interactive notebook. You will need a password to access the notebook.
+
+[Open the notebook in a separate page](index.html)
