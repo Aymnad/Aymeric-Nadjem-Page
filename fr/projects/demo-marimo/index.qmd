@@ -10,7 +10,7 @@ n'est nécessaire. Le premier chargement peut prendre quelques secondes
 (téléchargement de Pyodide).
 
 ```{=html}
-<iframe class="nb-frame" src="/nb/demo/?lang=fr" loading="lazy"
+<iframe class="nb-frame" src="/demo/?lang=fr" loading="lazy"
         title="Oscillation amortie (notebook marimo)"></iframe>
-<p class="nb-open"><a href="/nb/demo/?lang=fr" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
+<p class="nb-open"><a href="/demo/?lang=fr" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
 ```

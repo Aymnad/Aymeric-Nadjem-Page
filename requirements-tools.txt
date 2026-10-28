@@ -1,3 +1,0 @@
-# Outils locaux (export des notebooks, icônes) — PAS nécessaires au CI
-marimo==0.25.2
-pillow
