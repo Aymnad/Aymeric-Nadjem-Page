@@ -44,3 +44,8 @@ installe Quarto et publie `_site/` (aucun Python en CI). Le site doit être serv
 - Après mise à jour de marimo : ré-exporter et vérifier `design/marimo.css` (seules les 3 variables de police sont une API publique).
 - Les notebooks WASM chargent Pyodide depuis un CDN au runtime (non testable hors ligne ; voir l'option `--offline` de marimo).
 - Polices : Literata et JetBrains Mono (licence SIL OFL, fichiers de licence dans `design/fonts/`).
+
+
+Pour un le conteneur:
+docker build -t mon-site-quarto .
+docker run --rm -it -p 4200:4200 -v "$PWD:/project" mon-site-quarto
