@@ -1,0 +1,14 @@
+---
+title: "Analyse bulk"
+description: "Notebook intéractif tournant uniquement dans le navigateur"
+date: 2026-10-01
+categories: [marimo, Python]
+---
+
+Cette page contient un notebook intéractif mais n'est disponible que dans la version anglaise; un mot de passe est nécessaire pour pouvoir l'utiliser. 
+
+```{=html}
+<iframe class="nb-frame" src="/nb/bulk/?lang=fr" loading="lazy"
+        title="Oscillation amortie (notebook marimo)"></iframe>
+<p class="nb-open"><a href="/nb/bulk/?lang=fr" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
+```

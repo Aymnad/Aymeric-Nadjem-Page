@@ -23,5 +23,8 @@ WORKDIR /project
 
 EXPOSE 4200
 
-CMD ["quarto", "preview", "--host", "0.0.0.0", "--port", "4200", "--no-browser"]
+# for Preview
+#CMD ["quarto", "preview", "--host", "0.0.0.0", "--port", "4200", "--no-browser"]
 
+# To force the site to be recompiled and then preview
+CMD ["sh", "-lc", "quarto render && exec quarto preview --host 0.0.0.0 --port 4200 --no-browser"]

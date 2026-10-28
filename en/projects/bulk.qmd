@@ -1,0 +1,15 @@
+
+---
+title: "Analyse bulk"
+description: "Interactive notebook for bul analysis"
+date: 2026-10-01
+categories: [marimo, Python]
+---
+
+You need a password to use this notebook
+
+```{=html}
+<iframe class="nb-frame" src="/nb/bulk/?lang=fr" loading="lazy"
+        title="Oscillation amortie (notebook marimo)"></iframe>
+<p class="nb-open"><a href="/nb/bulk/?lang=fr" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
+```
