@@ -49,3 +49,11 @@ installe Quarto et publie `_site/` (aucun Python en CI). Le site doit être serv
 Pour un le conteneur:
 docker build -t mon-site-quarto .
 docker run --rm -it -p 4200:4200 -v "$PWD:/project" mon-site-quarto
+
+
+
+ATTENTION
+dans les iframes reliant à d'uatre fichiers à bien mettre la bonne langue correspondant au dossier, sinon cel ane fonctionnera pas
+
+ATTENTION
+si vous voulez rajouter des dosier qui seront accessible par les fichiers qmd il est important de rajouter les chemin dans le fichiers \_quarto. Autrement quarto ne fera pas le lien avec ces nouveaux dossiers.

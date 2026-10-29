@@ -9,7 +9,11 @@ categories: [marimo, Python]
 You need a password to use this notebook
 
 ```{=html}
-<iframe class="nb-frame" src="/nb/bulk/?lang=fr" loading="lazy"
+<p class="nb-open"><a href="/nb/bulk/?lang=fr" target="_blank" rel="noopener">Open the notebook full screen</a></p>
+```
+
+```{=html}
+<iframe class="nb-frame" src="/nb/bulk/?lang=en" loading="lazy"
         title="Oscillation amortie (notebook marimo)"></iframe>
-<p class="nb-open"><a href="/nb/bulk/?lang=fr" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
+<p class="nb-open"><a href="/nb/bulk/?lang=en" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
 ```

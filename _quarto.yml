@@ -8,6 +8,7 @@ project:
     - index.html
     - nb/**
     - design/**
+    - qmd_crypted/**
 
 website:
   # site-url: https://mon-compte.github.io

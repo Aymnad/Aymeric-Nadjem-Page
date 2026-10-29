@@ -5,9 +5,14 @@ date: 2026-10-01
 categories: [anatomy]
 ---
 
-Sample page.
+You need a password to use this notebook
 
-| Year | Course | Level |
-|------|--------|-------|
-| 2025–2026 | Introduction to computational neuroscience | MSc 1 |
-| 2024–2025 | Signal processing in Python | BSc 3 |
+```{=html}
+<p class="nb-open"><a href="/qmd_crypted/anatomy/?lang=en" target="_blank" rel="noopener">Open the notebook full screen</a></p>
+```
+
+```{=html}
+<iframe class="nb-frame" src="/qmd_crypted/anatomy/?lang=en" loading="lazy"
+        title="Anatomy"></iframe>
+<p class="nb-open"><a href="/qmd_crypted/anatomy/?lang=en" target="_blank" rel="noopener">Open the notebook full screen</a></p>
+```
