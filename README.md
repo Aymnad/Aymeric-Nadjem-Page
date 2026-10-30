@@ -48,6 +48,7 @@ docker run --rm -it -p 4200:4200 -v "$PWD:/project" mon-site-quarto
 ```
 
 ## Déploiement
+dans le dissier /.github/worflows/publish se trouve le workflow qui défini la mise en ligne à partir de la branch main.
 GitHub → Settings → Pages → Source : **GitHub Actions**. Le workflow `.github/workflows/publish.yml`
 installe Quarto et publie `_site/` (aucun Python en CI). Le site doit être servi à la racine d'un domaine
 (`user.github.io` ou domaine personnalisé) car les iframes et le CSS marimo utilisent `/nb/…` et `/design/…`.
@@ -61,3 +62,4 @@ installe Quarto et publie `_site/` (aucun Python en CI). Le site doit être serv
 - Iframes: dans les iframes présent dans les .qmd reliant à d'autres fichiers à bien mettre la bonne langue correspondant au dossier, sinon cela ne fonctionnera pas (ie lang fr, lang en)
 - Ajout dossier: si vous voulez rajouter des dosier qui seront accessible par les fichiers qmd il est important de rajouter les chemin dans le fichiers \_quarto. Autrement quarto ne fera pas le lien avec ces nouveaux dossiers.
 - Ajout articles: les dossiers dans /en et /fr doivent avoir les memes noms.
+- Mise en ligne sur Github Page: attention, linux est sensible à la casse. Bien vérifier les noms de fichiers.
