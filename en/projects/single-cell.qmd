@@ -1,0 +1,20 @@
+---
+title: "Single cell analysis"
+description: "Interactive notebook for single cell analysis"
+date: 2026-10-01
+categories: [marimo, Python]
+---
+
+This notebook performs transcriptomic data visualization in your notebook. *You need to have the preprocessed data to use it*.
+
+You need a password to use this notebook.
+
+```{=html}
+<p class="nb-open"><a href="/nb/bulk/?lang=fr" target="_blank" rel="noopener">Open the notebook full screen</a></p>
+```
+
+```{=html}
+<iframe class="nb-frame" src="/nb/single-cell/?lang=en" loading="lazy"
+        title="Oscillation amortie (notebook marimo)"></iframe>
+```
+

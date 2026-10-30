@@ -7,9 +7,9 @@ categories: [anatomie]
 
 L’anatomie semble être un domaine d’étude déjà complet, avec des connaissances qui se sont accumulées au fil des siècles. Les chirurgiens ont déjà réalisé des centaines de dissections, alors pourquoi en faire plus ? Avec l’intelligence artificielle (IA), capable de récupérer facilement une multitude d’informations, pourquoi l’étudier de toute façon ? Une brève description ou une image devrait suffire à identifier ce que nous voyons.
 
-Comme pour tout, il n’y a pas de réponse toute faite. L’IA reposae sur l’assimilation d’une grande quantité d’informations, les cas rares et les variations peuvent être décrits de manière erronée ou trop succinte, et des erreurs vont être passées dans les modèles d'IA. À mesure que de nouvelles techniques voient le jour, il se peut que les connaissances récentes n’aient pas encore été intégrées au grand modèle de langage. Il reste donc nécessaire de se tenir au courant des dernières recherches et bases de données, et d’utiliser correctement l’IA pour s’y retrouver dans le flux d’informations.
+Comme pour tout, il n’y a pas de réponse toute faite. L’IA repose sur l’assimilation d’une grande quantité d’informations, les cas rares et les variations peuvent être décrites de manière erronées ou trop succintes, et des erreurs vont être passées dans les modèles d'IA. À mesure que de nouvelles techniques voient le jour, il se peut que les connaissances récentes n’aient pas encore été intégrées au grand modèle de langage. Il reste donc nécessaire de se tenir au courant des dernières recherches et bases de données, et d’utiliser correctement l’IA pour s’y retrouver dans le flux d’informations.
 
-Un mot de passe est nécessaire pour accéder à ce cahier.
+Un mot de passe est nécessaire pour accéder à ce notebook.
 
 ```{=html}
 <iframe class="nb-frame" src="/qmd_crypted/anatomy/?lang=fr" loading="lazy"

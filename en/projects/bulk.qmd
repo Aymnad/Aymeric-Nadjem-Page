@@ -1,6 +1,6 @@
 
 ---
-title: "Analyse bulk"
+title: "Bulk analysis"
 description: "Interactive notebook for bulk analysis"
 date: 2026-10-01
 categories: [marimo, Python]
@@ -8,14 +8,13 @@ categories: [marimo, Python]
 
 This notebook performs transcriptomic data visualization in your notebook. *You need to have the preprocessed data to use it*.
 
-You need a password to use this notebook.
+You need a password to use this notebook: yP2y0@AtWAfrVZ^0Un6k#XgJZCkBmz
 
 ```{=html}
-<p class="nb-open"><a href="/nb/bulk/?lang=fr" target="_blank" rel="noopener">Open the notebook full screen</a></p>
+<p class="nb-open"><a href="/nb/bulk/?lang=en" target="_blank" rel="noopener">Open the notebook full screen</a></p>
 ```
 
 ```{=html}
 <iframe class="nb-frame" src="/nb/bulk/?lang=en" loading="lazy"
-        title="Oscillation amortie (notebook marimo)"></iframe>
-<p class="nb-open"><a href="/nb/bulk/?lang=en" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
+        title="bulk analysis"></iframe>
 ```

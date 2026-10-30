@@ -1,11 +1,11 @@
 ---
 title: "Gestion de fichier et dossier via excel"
-subtitle: "Utilisation de tableaux excel liés via PowerQuery"
+description: "Utilisation de tableaux excel liés via PowerQuery"
 date: 2026-10-20
 categories: [excel]
 ---
 
-Il existe un très grand nombres de moyende gérer de façon plus ou moins automatique des données. Mais elles sont souvent limité par leurs facilité d'utilisation et le fait que les collaborateur ne puissent pas utiliser des outils de code qui peuvent leur sembler opaques. Pour des projets petit/moyen, utiliser excel devient alors un choix cohérent car il a l'avantage d'être connu de tous.
+Il existe un très grand nombres de moyen de gérer de façon plus ou moins automatique des données. Mais elles sont souvent limité par leurs facilité d'utilisation et le fait que les collaborateur ne puissent pas utiliser des outils de code qui peuvent leur sembler opaques. Pour des projets petit/moyen, utiliser excel devient alors un bon choix car il a l'avantage d'être connu de tous.
 
 ::: {.illustration .illustration--droite .column-screen style="--img: url('/design/img/icons8-microsoft-excel-2019-96.png')"}
 ::: {.illustration-texte}
