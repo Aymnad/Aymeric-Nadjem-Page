@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bullet2mermaid</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+  <header class="bar">
+    <h1>bullet2mermaid</h1>
+    <div class="actions">
+      <label class="btn" for="file-input">Ouvrir un fichier .md</label>
+      <input id="file-input" type="file" accept=".md,.markdown,.txt,text/markdown,text/plain" hidden>
+      <button class="btn" id="export-pdf" type="button">Exporter en PDF</button>
+    </div>
+  </header>
+
+  <main class="panes">
+    <section class="pane editor" id="dropzone" aria-label="Éditeur Markdown">
+      <textarea id="source" spellcheck="false" aria-label="Markdown source"></textarea>
+      <div class="drop-hint" aria-hidden="true">Déposez votre fichier Markdown ici</div>
+    </section>
+
+    <section class="pane preview" aria-label="Rendu">
+      <article id="output" class="markdown"></article>
+    </section>
+  </main>
+
+  <!-- Bibliothèques locales : tout fonctionne hors ligne -->
+  <script src="vendor/marked.umd.js"></script>
+  <script src="vendor/mermaid.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

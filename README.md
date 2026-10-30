@@ -1,37 +1,51 @@
-# Mon site (Quarto, bilingue FR/EN, notebooks marimo WASM)
+# Github page (Quarto, bilingue FR/EN, notebooks marimo WASM)
 
-## Structure
-- `fr/`, `en/` : pages (mêmes chemins dans les deux langues → le bouton FR/EN fonctionne)
-- `design/` : identité visuelle partagée
-  - `tokens.css` (palette + polices, lu par le site ET les notebooks), `marimo.css` (surcharges notebooks)
-  - `header-fr.html` / `header-en.html` : en-tête par langue (la navbar Quarto ne peut pas être bilingue)
-  - `fonts/`, `icons/`
-- `_brand.yml` + `custom.scss` : thème Quarto (garder la palette synchronisée avec `tokens.css`)
-- `src-notebooks/*.py` : sources marimo ; `nb/<nom>/` : exports WASM **committés**
-- `tools/` : `export_notebook.sh`, `postprocess.py`, `make_icons.py`
-- `index.html` : redirection selon la langue du navigateur
+Ceci est un site créé avec quarto, les informations sont contenus dans des fichiers .qmd qui ressemblent à des fichiers markdown.
 
-## Commandes
-```bash
-pip install -r requirements-tools.txt   # marimo (version fixée) + pillow
-python tools/make_icons.py              # (optionnel) régénère design/icons/
-tools/export_notebook.sh demo           # exporte src-notebooks/demo.py → nb/demo/ + thème
-quarto preview                          # aperçu local (http://localhost:xxxx, racine du site)
-quarto render                           # build dans _site/
+## Structure du projet
+
 ```
-Ajouter un notebook : l'écrire dans `src-notebooks/`, lancer l'export, l'intégrer avec
-`<iframe src="/nb/<nom>/?lang=fr">` (voir `fr/projects/demo-marimo.qmd`), committer `nb/<nom>/`.
-
-## Images d'illustration (à faire une fois)
-Les deux images de `fr|en/projects/neuron.qmd` sont des **placeholders** (mêmes noms de fichiers) : remplacez-les
-par les vraies images libres de droits, avec internet :
-```bash
-python tools/fetch_image.py PurkinjeCell.jpg cajal-purkinje-1899 --width 1200
-python tools/fetch_image.py "Blausen 0657 MultipolarNeuron.png" blausen-multipolar-neuron --width 1400
+Aymeric-Nadjem-Page/
+├── export_notebook.sh      # script pour l'export de notebook vers site marimo
+├── protected_website.py    # le générateur de fichiers crypté
+├── _site    # contient tous les exports statiques de quarto 
+├── _quarto           # contient les dossiers accessible pour quarto
+└── en/                  # export des notebooks marimo
+│   ├── index/ # page de garde
+│   ├── projects/
+│   │   ├── index.qmd      # obligatoire pour lister les différents qmd
+│   │   ├── project_1.qmd         # contenu chiffré
+│   │   ├── project_2.qmd           # service worker
+│   │   └── ...
+│   └── ateaching/
+│       └── … (même structure)
+└── fr/                  # export des notebooks marimo
+│   ├── … (même structure que /en)
+└── nb/                  # export des notebooks marimo
+│   ├── notebook-crypted/
+│   │   ├── index.html      # page d'entrée (titre, infos, demande du code)
+│   │   ├── app.enc         # contenu chiffré
+│   │   ├── sw.js           # service worker
+│   │   └── robots.txt
+│   └── app-beta/
+│       └── … (même structure)
+└── qmd_crypted/                  # export des notebooks marimo
+│   ├── qmd_crypted_1/
+│   │   ├── index.html      # attention, lors du cryptage, bien changer le nom pour index.html
+│   │   ├── app.enc         
+│   │   ├── sw.js           
+│   │   └── robots.txt
+│   └── qmd_crypted_2/
+│       └── … (même structure)
+└── README.md
 ```
-Le 1er argument est le nom EXACT du fichier sur Wikimedia Commons : vérifiez-le (surtout le second), ainsi que la
-licence et les consignes de crédit sur la fiche du fichier, puis ajustez les crédits dans les `.qmd`.
-Pour vos propres figures : `python tools/fetch_image.py --from-file ma_figure.png ma-figure --width 1400`.
+
+
+## Test avec conteneur
+```bash
+docker build -t mon-site-quarto .
+docker run --rm -it -p 4200:4200 -v "$PWD:/project" mon-site-quarto
+```
 
 ## Déploiement
 GitHub → Settings → Pages → Source : **GitHub Actions**. Le workflow `.github/workflows/publish.yml`
@@ -44,16 +58,6 @@ installe Quarto et publie `_site/` (aucun Python en CI). Le site doit être serv
 - Après mise à jour de marimo : ré-exporter et vérifier `design/marimo.css` (seules les 3 variables de police sont une API publique).
 - Les notebooks WASM chargent Pyodide depuis un CDN au runtime (non testable hors ligne ; voir l'option `--offline` de marimo).
 - Polices : Literata et JetBrains Mono (licence SIL OFL, fichiers de licence dans `design/fonts/`).
-
-
-Pour un le conteneur:
-docker build -t mon-site-quarto .
-docker run --rm -it -p 4200:4200 -v "$PWD:/project" mon-site-quarto
-
-
-
-ATTENTION
-dans les iframes reliant à d'uatre fichiers à bien mettre la bonne langue correspondant au dossier, sinon cel ane fonctionnera pas
-
-ATTENTION
-si vous voulez rajouter des dosier qui seront accessible par les fichiers qmd il est important de rajouter les chemin dans le fichiers \_quarto. Autrement quarto ne fera pas le lien avec ces nouveaux dossiers.
+- Iframes: dans les iframes présent dans les .qmd reliant à d'autres fichiers à bien mettre la bonne langue correspondant au dossier, sinon cela ne fonctionnera pas (ie lang fr, lang en)
+- Ajout dossier: si vous voulez rajouter des dosier qui seront accessible par les fichiers qmd il est important de rajouter les chemin dans le fichiers \_quarto. Autrement quarto ne fera pas le lien avec ces nouveaux dossiers.
+- Ajout articles: les dossiers dans /en et /fr doivent avoir les memes noms.

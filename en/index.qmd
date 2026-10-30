@@ -1,7 +1,7 @@
 
 ---
-title: "First Last"
-subtitle: "Engineer, PhD in neuroscience"
+title: ""
+subtitle: ""
 format:
   html:
     css: ../design/styles-home.css
@@ -11,27 +11,13 @@ format:
 
 ::: {.home-card}
 
-this is a text
+## Aymeric Nadjem - Engineer, PhD in neuroscience
 
+I develop analysis tools that are designed to be user-friendly for everyone using a browser. This site showcases some of my projects and teaching resources, along with a few interactive demos. Unfortunately, not everything can currently be run in a browser, so you may need to pre-process your data locally or by using a container (or just ask me).
 
+You will mostly find encrypted notebooks here, which means that you asked me to obtain the code :) Once you have it and your browser has downloaded the necessary packages, it can even work without an internet connection!
 
-# First Last
-
-**Engineer, PhD in neuroscience**
-
-I build analysis and modelling tools for brain research. This site gathers my [projects](projects/index.qmd), my [teaching](teaching/index.qmd) and a few interactive demos.
-
-## Checking that everything works
-
-- Body text uses **Arial**; code uses `JetBrains Mono`.
-- The **FR** button in the navigation bar opens the same page in French.
-- The [Damped oscillation](projects/demo-marimo.qmd) page embeds a marimo (WebAssembly) notebook with the same visual identity.
-
-```python
-def mean(xs):
-    return sum(xs) / len(xs)
-```
-
+**Lake Tekapo, New Zeland, at night. Taken with an Iphone 15 Pro, ISO 8000 - 24 mm ƒ1,78 - 3.4 s**
 
 :::
 

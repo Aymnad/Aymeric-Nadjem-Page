@@ -1,22 +1,24 @@
 ---
-title: "Prénom Nom"
-subtitle: "Ingénieur, docteur en neurosciences"
+title: ""
+subtitle: ""
+format:
+  html:
+    css: ../design/styles-home.css
 ---
 
-Texte d'exemple : je conçois des outils d'analyse et de modélisation pour
-l'étude du cerveau. Ce site rassemble mes [projets](projects/index.qmd), mes
-activités d'[enseignement](teaching/index.qmd) et des démonstrations
-interactives.
+::: {.home-hero}
 
-## Pour vérifier que tout fonctionne
+::: {.home-card}
 
-- La police du texte est **Literata**, le code est en `JetBrains Mono`.
-- Le bouton **EN** de la barre de navigation ouvre la même page en anglais.
-- La page [Oscillation amortie](projects/demo-marimo.qmd) intègre un
-  notebook marimo (WebAssembly) avec la même identité visuelle.
+## Aymeric Nadjem - Ingénieur, docteur en neuroscience
 
-```python
-# Un bloc de code, pour voir la police monospace
-def moyenne(xs):
-    return sum(xs) / len(xs)
-```
+Je développe des outils d'analyse conçus pour être faciles à utiliser par tout le monde via un navigateur. Ce site présente certains de mes projets et ressources pédagogiques, ainsi que quelques démos interactives. Malheureusement, tout ne peut pas encore être exécuté dans un navigateur ; vous devrez donc peut-être pré-traiter vos données localement ou à l'aide d'un conteneur (ou simplement me demander de l'aide).
+
+Vous trouverez ici principalement des notebooks cryptés, ce qui signifie que vous m’avez demandé de vous fournir le code :) Une fois que vous l’avez et que votre navigateur a téléchargé les paquets nécessaires, cela peut même fonctionner sans connexion Internet !
+
+
+**Lac Tekapo, Nouvelle-Zélande, une nuit d'été australe. Photo prise avec un Iphone 15 Pro, ISO 8000 - 24 mm ƒ1,78 - 3.4 s**
+
+:::
+
+:::

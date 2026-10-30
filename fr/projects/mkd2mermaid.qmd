@@ -1,0 +1,14 @@
+---
+title: "Markdown vers graphes mermaid"
+subtitle: "Utilisation de puce pour générer des graph mermaid"
+date: 2026-10-20
+categories: [markdown]
+---
+
+Déposez un fichier Markdown ou écrivez directement dans l'éditeur.
+
+<iframe src="/other/mkd-bullet2mermaid/index.html"
+        style="width:100%; height:85vh; border:1px solid #ccc;"
+        title="bullet2mermaid"></iframe>
+
+[Ouvrir en plein écran](/other/mkd-bullet2mermaid/index.html){target="_blank"}

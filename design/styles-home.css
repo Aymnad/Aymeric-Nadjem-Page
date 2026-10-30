@@ -19,24 +19,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-/*/* Full-width image at the top */*/
-/*body {*/
-/*    background-color: #ffffff;*/
-/*    background-image: url("../design/img/IMG_8228.jpeg");*/
-/*    background-size: cover;*/
-/*    background-position: center top;*/
-/*    background-repeat: no-repeat;*/
-/*    background-attachment: scroll;*/
-/*}*/
-
 /* Image de fond de la page d'accueil */
 body {
     background-color: #ffffff;
@@ -61,34 +43,11 @@ body {
 }
 
 
-
-
-
-
-/*/* Hero area: creates space for the overlapping card */*/
-/*.home-hero {*/
-/*    min-height: 430px;*/
-/*    padding: 260px 24px 0;*/
-/*    margin: 0 auto;*/
-/*    max-width: 1200px;*/
-/*}*/
-/**/
-/*/* White card overlapping the image */*/
-/*.home-card {*/
-/*    position: relative;*/
-/*    max-width: 850px;*/
-/*    margin: 0 auto;*/
-/*    padding: 36px 44px;*/
-/*    background: #ffffff;*/
-/*    border-radius: 10px;*/
-/*    box-shadow: 0 8px 30px rgba(19, 34, 43, 0.12);*/
-/*}*/
-
 .home-hero {
     position: relative;
     isolation: isolate;
-    min-height: 430px;
-    padding: 260px 24px 40px;
+    min-height: 230px;
+    padding: 160px 24px 40px;
     box-sizing: border-box;
     background: transparent;
 }
@@ -105,7 +64,7 @@ body {
     left: calc(50% - 50vw);
     width: 100vw;
     
-    background-image: url("../design/img/IMG_8228.jpeg");
+    background-image: url("../design/img/Tekapo_lake_NZ.jpeg");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -191,58 +150,3 @@ body {
 .site-header nav a:hover {
     color: #1b5e7a !important;
 }
-
-
-
-
-
-
-/*/* TEST : afficher l'image dans la zone hero */*/
-/*.home-hero {*/
-/*    background-image: url("../design/img/IMG_8228.jpeg") !important;*/
-/*    background-size: cover !important;*/
-/*    background-position: center top !important;*/
-/*    background-repeat: no-repeat !important;*/
-/*    min-height: 430px;*/
-/*    padding: 260px 24px 0;*/
-/*}*/
-/**/
-/*/* Garder la carte blanche au premier plan */*/
-/*.home-card {*/
-/*    position: relative;*/
-/*    z-index: 2;*/
-/*    background: #ffffff !important;*/
-/*}*/
-
-/*/* Le conteneur principal ne doit pas masquer l'image */*/
-/*#quarto-content,*/
-/*#quarto-content main,*/
-/*#quarto-content .content {*/
-/*    background-color: transparent !important;*/
-/*}*/
-/**/
-/*/* Image pleine largeur derrière la hero card */*/
-/*.home-hero {*/
-/*    width: 100%;*/
-/*    max-width: none;*/
-/*    min-height: 430px;*/
-/*    box-sizing: border-box;*/
-/*    padding: 260px 24px 0;*/
-/*    margin: 0;*/
-/*    */
-/*    background-image: url("../design/img/IMG_8228.jpeg") !important;*/
-/*    background-size: cover !important;*/
-/*    background-position: center top !important;*/
-/*    background-repeat: no-repeat !important;*/
-/*}*/
-/**/
-/*/* Carte blanche au-dessus de l'image */*/
-/*.home-card {*/
-/*    position: relative;*/
-/*    max-width: 850px;*/
-/*    margin: 0 auto;*/
-/*    padding: 36px 44px;*/
-/*    background-color: #ffffff !important;*/
-/*    border-radius: 10px;*/
-/*    box-shadow: 0 8px 30px rgba(19, 34, 43, 0.12);*/
-/*}*/

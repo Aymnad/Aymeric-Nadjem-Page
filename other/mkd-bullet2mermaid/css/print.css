@@ -1,0 +1,25 @@
+/* Chargé uniquement à l'impression / export PDF (media="print") */
+@page { margin: 14mm; }
+
+html, body { height: auto; }
+body { display: block; background: #fff; font-size: 11pt; }
+
+/* On ne garde que le rendu */
+.bar, .editor, .drop-hint { display: none !important; }
+.panes { display: block; }
+.preview { overflow: visible; }
+.markdown { max-width: none; margin: 0; padding: 0; }
+
+/* Un diagramme ne doit pas être coupé entre deux pages */
+.diagram, .diagram-error, .markdown pre, .markdown table {
+  break-inside: avoid;
+}
+.diagram {
+  padding: 0;
+  border: 0;
+  background: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact; /* garde les couleurs des diagrammes */
+}
+.markdown h1, .markdown h2, .markdown h3 { break-after: avoid; }
+.markdown pre { white-space: pre-wrap; }

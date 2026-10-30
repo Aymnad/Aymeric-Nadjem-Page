@@ -1,8 +1,0 @@
----
-title: "Cours limite de l'IA"
-description: "Interactive marimo notebook running in the browser (WebAssembly)."
-date: 2026-10-01
-categories: [IA]
----
-
-ceci est un test
