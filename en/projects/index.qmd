@@ -1,0 +1,11 @@
+---
+title: "Projects"
+listing:
+  contents:
+    - "*.qmd"
+    - "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [title, description, date, categories]
+---

@@ -1,0 +1,27 @@
+meta:
+  name: Mon site
+
+color:
+  palette:
+    papier: "#fafafa"
+    encre: "#13222b"
+    bleu: "#1b5e7a"
+    brume: "#d9e6ea"
+    gris: "#5d6f78"
+  foreground: encre
+  background: papier
+  primary: bleu
+  secondary: gris
+  link: bleu
+
+typography:
+  fonts:
+    - family: Arial
+      source: system
+    - family: JetBrains Mono
+      source: system
+  base: Arial
+  headings: Arial
+  monospace: JetBrains Mono
+
+

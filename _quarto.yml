@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+  render:                      # seules les pages de contenu sont rendues
+    - "fr/**/*.qmd"
+    - "en/**/*.qmd"
+  resources:                   # copiés tels quels dans _site
+    - index.html
+    - nb/**
+    - design/**
+    - qmd_crypted/**
+    - other/**
+
+website:
+  # site-url: https://mon-compte.github.io
+  favicon: design/icons/logo-favicon.svg
+
+# use a custom brand visual
+format:
+  html:
+    theme: [brand, custom.scss]
+    css: design/tokens.css
+    toc: false
+    highlight-style: github
+    smooth-scroll: false

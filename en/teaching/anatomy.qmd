@@ -1,0 +1,18 @@
+---
+title: "Anatomy course"
+description: "Learning anatomy, why and how at the age of AI"
+date: 2026-10-01
+categories: [anatomy]
+---
+
+Anatomy seems like a field of study that is already complete, with knowledge built up over a long period of time. Surgeons have already performed hundreds of dissections, so surely we already know everything? With artificial intelligence (AI) that can easily retrieve lots of information, why learn it anyway? With just a brief description or an image, we should be able to identify what we are looking at.
+
+As with everything, there is no right answer. As AI is based on ingesting lots of information, rare events and variations can be incorrectly described and it is passed into the AI models. As new techniques develop, recent knowledge may not have made its way into the large language model. Therefore, it is still necessary to keep up to date with the latest research and databases, and to use AI correctly to navigate the flow of information.
+
+You need a password to access this notebook.
+
+```{=html}
+<iframe class="nb-frame" src="/qmd_crypted/anatomy/?lang=en" loading="lazy"
+        title="Anatomy"></iframe>
+<p class="nb-open"><a href="/qmd_crypted/anatomy/?lang=en" target="_blank" rel="noopener">Open the notebook full screen</a></p>
+```

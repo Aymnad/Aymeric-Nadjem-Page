@@ -1,0 +1,152 @@
+
+/* White navigation bar */
+.navbar {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 0 2px 8px rgba(19, 34, 43, 0.06);
+}
+
+/* Keep navigation links readable */
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: #13222b !important;
+}
+
+/* Hover effect */
+.navbar .nav-link:hover {
+    color: #1b5e7a !important;
+}
+
+
+/* Image de fond de la page d'accueil */
+body {
+    background-color: #ffffff;
+    
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+/* Laisser apparaître le fond derrière le contenu */
+#quarto-content {
+    background-color: transparent !important;
+}
+
+/* Bandeau de navigation toujours blanc */
+.site-header {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    position: relative;
+    z-index: 1000;
+}
+
+
+.home-hero {
+    position: relative;
+    isolation: isolate;
+    min-height: 230px;
+    padding: 160px 24px 40px;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+
+
+/* Image étendue sur toute la largeur de la fenêtre */
+.home-hero::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: calc(50% - 50vw);
+    width: 100vw;
+    
+    background-image: url("../design/img/Tekapo_lake_NZ.jpeg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.home-card {
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 36px 44px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(19, 34, 43, 0.12);
+}
+
+
+
+@media (max-width: 600px) {
+    .home-hero {
+        min-height: 340px;
+        padding: 200px 16px 32px;
+    }
+    
+    .home-card {
+        padding: 24px;
+    }
+}
+
+
+
+
+
+/* Title and subtitle */
+.home-card h1 {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    color: #13222b;
+}
+
+.home-card p {
+    color: #13222b;
+    line-height: 1.7;
+}
+
+/* Content below the hero */
+#quarto-content {
+    background-color: #ffffff;
+}
+
+/* Responsive layout for phones */
+@media (max-width: 600px) {
+    .home-hero {
+        min-height: 340px;
+        padding: 200px 16px 0;
+    }
+    
+    .home-card {
+        padding: 24px;
+    }
+}
+
+
+
+/* Bandeau de navigation blanc */
+.site-header {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 0 2px 8px rgba(19, 34, 43, 0.06);
+    position: relative;
+    z-index: 1000;
+}
+
+/* Nom du site et liens */
+.site-header .site-title,
+.site-header nav a {
+    color: #13222b !important;
+}
+
+/* Survol des liens */
+.site-header nav a:hover {
+    color: #1b5e7a !important;
+}

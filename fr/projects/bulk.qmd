@@ -1,0 +1,49 @@
+---
+title: "Analyse bulk"
+description: "Notebook intéractif tournant uniquement dans le navigateur pour de l'analyse de bulk"
+date: 2026-10-01
+categories: [marimo, Python]
+---
+
+
+
+Cette page contient un notebook intéractif mais n'est disponible que dans la version anglaise; *attention, vous devez avoir les données pré-processées*
+
+Un mot de passe est nécessaire pour pouvoir l'utiliser: yP2y0@AtWAfrVZ^0Un6k#XgJZCkBmz
+
+```{=html}
+<p class="nb-open"><a href="/nb/bulk/?lang=en" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
+```
+
+```{=html}
+<iframe class="nb-frame" src="/nb/bulk/?lang=fr" loading="lazy"
+        title="bulk analysis"></iframe>
+```
+
+
+<!--
+
+## Anatomie d'un neurone multipolaire
+
+La plupart des neurones du système nerveux central sont multipolaires : un
+seul axone, et de nombreuses dendrites qui permettent d'intégrer beaucoup
+d'informations venues d'autres neurones.
+
+![Schéma d'un neurone multipolaire. *Image : Bruce Blaus / Blausen.com, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons.*](../../design/img/blausen-multipolar-neuron.webp){fig-alt="Schéma annoté d'un neurone multipolaire : corps cellulaire avec noyau, dendrites ramifiées, long axone entouré de myéline et terminaisons axonales."}
+
+## Crédits des images {.unnumbered}
+
+::: {.credits}
+- **Cellules de Purkinje (A) et cellules granulaires (B) du cervelet de pigeon**,
+  dessin de Santiago Ramón y Cajal, 1899 (Instituto Cajal, Madrid). Domaine
+  public. Source :
+  [Wikimedia Commons, « PurkinjeCell.jpg »](https://commons.wikimedia.org/wiki/File:PurkinjeCell.jpg).
+  Image redimensionnée.
+- **Multipolar neuron (Blausen 0657)**, Bruce Blaus / Blausen.com staff,
+  licence [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images_from_Blausen_Medical_Communications).
+  Image redimensionnée.
+:::
+
+
+ -->

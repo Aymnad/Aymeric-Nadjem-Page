@@ -1,0 +1,25 @@
+---
+title: "Data management via excel"
+description: "Use linked excel spreadsheet via PowerQuery"
+date: 2026-10-20
+categories: [excel]
+---
+
+There are many ways to manage data more or less automatically. However, these methods are often limited by their ease of use and the fact that employees may not be able to use coding tools, which can seem confusing to them. For small- to medium-sized projects, using Excel is therefore a logical choice, as it has the advantage of being familiar to everyone.
+
+::: {.illustration .illustration--droite .column-screen style="--img: url('/design/img/icons8-microsoft-excel-2019-96.png')"}
+::: {.illustration-texte}
+## Management de données
+
+The goal of this project is to create a set of core Excel files that dictate the correct keywords to use and aggregate the generated data:
+
+<a target="_blank" href="https://github.com/Aymnad/excel-project-management">Projet Github</a>
+
+ 
+
+*Image de fond : <a target="_blank" href="https://icons8.com/icon/117561/microsoft-excel-2019">Microsoft Excel 2019</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>.*
+:::
+:::
+
+
+

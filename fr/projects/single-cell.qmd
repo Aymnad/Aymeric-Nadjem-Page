@@ -1,0 +1,17 @@
+---
+title: "Analyse single cell"
+description: "Notebook intéractif tournant uniquement dans le navigateur pour de l'analyse single cell"
+date: 2026-10-01
+categories: [marimo, Python]
+---
+
+Cette page contient un notebook intéractif mais n'est disponible que dans la version anglaise; un mot de passe est nécessaire pour pouvoir l'utiliser. 
+
+```{=html}
+<p class="nb-open"><a href="/nb/single-cell/?lang=fr" target="_blank" rel="noopener">Ouvrir le notebook en plein écran</a></p>
+```
+
+```{=html}
+<iframe class="nb-frame" src="/nb/single-cell/?lang=fr" loading="lazy"
+        title="Oscillation amortie (notebook marimo)"></iframe>
+```

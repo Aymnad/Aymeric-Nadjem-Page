@@ -1,0 +1,30 @@
+
+FROM ubuntu:24.04
+
+ARG DEBIAN_FRONTEND=noninteractive
+ARG QUARTO_VERSION=1.10.19
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    && dpkgArch="$(dpkg --print-architecture)" \
+    && case "$dpkgArch" in \
+         arm64) quartoArch="arm64" ;; \
+         amd64) quartoArch="amd64" ;; \
+         *) echo "Architecture non supportée: $dpkgArch"; exit 1 ;; \
+       esac \
+    && curl -fsSL -o /tmp/quarto.deb \
+       "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-${quartoArch}.deb" \
+    && apt-get install -y /tmp/quarto.deb \
+    && rm -f /tmp/quarto.deb \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /project
+
+EXPOSE 4200
+
+# for Preview
+#CMD ["quarto", "preview", "--host", "0.0.0.0", "--port", "4200", "--no-browser"]
+
+# To force the site to be recompiled and then preview
+CMD ["sh", "-lc", "quarto render && exec quarto preview --host 0.0.0.0 --port 4200 --no-browser"]

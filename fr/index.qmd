@@ -1,0 +1,24 @@
+---
+title: ""
+subtitle: ""
+format:
+  html:
+    css: ../design/styles-home.css
+---
+
+::: {.home-hero}
+
+::: {.home-card}
+
+## Aymeric Nadjem - Ingénieur, docteur en neuroscience
+
+Je développe des outils d'analyse conçus pour être faciles à utiliser par tout le monde via un navigateur. Ce site présente certains de mes projets et ressources pédagogiques, ainsi que quelques démos interactives. Malheureusement, tout ne peut pas encore être exécuté dans un navigateur ; vous devrez donc peut-être pré-traiter vos données localement ou à l'aide d'un conteneur (ou simplement me demander de l'aide).
+
+Vous trouverez ici principalement des notebooks cryptés, ce qui signifie que vous m’avez demandé de vous fournir le code :) Une fois que vous l’avez et que votre navigateur a téléchargé tout seul les packages nécessaires, cela peut même fonctionner sans connexion internet !
+
+
+**Lac Tekapo, Nouvelle-Zélande, une nuit d'été australe. Photo prise avec un Iphone 15 Pro, ISO 8000 - 24 mm ƒ1,78 - 3.4 s**
+
+:::
+
+:::

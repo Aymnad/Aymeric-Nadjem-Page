@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Prénom Nom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="2; url=/fr/index.html">
+  <link rel="alternate" hreflang="fr" href="/fr/index.html">
+  <link rel="alternate" hreflang="en" href="/en/index.html">
+  <script>
+    var en = !(navigator.language || "fr").toLowerCase().startsWith("fr");
+    location.replace(en ? "/en/index.html" : "/fr/index.html");
+  </script>
+</head>
+<body>
+  <p><a href="/fr/index.html">Français</a> · <a href="/en/index.html">English</a></p>
+</body>
+</html>
